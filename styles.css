@@ -1,0 +1,285 @@
+body {
+  background-color: white !important;
+}
+
+div, section {
+  font-family: 'Lato';
+  color: white;
+}
+
+/* HEADER */
+
+header {
+  top: 0;
+  position: sticky;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.navbar {
+  list-style-type: none;
+  background-color: black;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  max-width: 700px;
+  align-items: center;
+  margin-bottom: 0;
+  color: white;
+  font-size: 9px;
+  padding: 10px 0;
+}
+
+.navbar li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-large {
+  border-radius: 15px;
+  margin: 10px;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: white;
+  width: 150px;
+  padding: 5px 15px;
+}
+
+.navbar .btn-large {
+  background-color: #FF704B;
+}
+
+.navbar .btn-large img {
+  margin-right: 10px;
+  height: 20px;
+  padding: 5px;
+}
+
+.navbar .btn-large a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+  position: relative;
+  background-color: black;
+  min-height: 600px;
+}
+
+.hero--purchase {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-carousel {
+  overflow: hidden;
+}
+
+.hero-carousel .slick-dots {
+  bottom: 30px;
+  color: white;
+}
+
+.hero-carousel img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0 !important;
+}
+
+.hero img {
+  width: 100%;
+
+}
+
+.hero--purchase a {
+  color: white;
+}
+
+.hero--purchase h2, .btn-large {
+  text-align: center;
+}
+
+.hero--purchase .btn-large {
+  margin: 30px auto;
+  color: white;
+  border: 1px solid white;
+  font-size: 18px;
+}
+
+/* COVID */
+
+.covid div {
+  background-color: white;
+  margin: 0 auto;
+  padding: 40px 20%;
+}
+
+.covid h2 {
+  font-size: 32px;
+}
+
+.covid p {
+  font-size: 18px;
+}
+
+.covid p, .covid h2 {
+  color: black;
+  text-align: center;
+}
+
+/* releases */
+
+.releases {
+  background-color: black;
+}
+
+.releases .release-header {
+  padding: 10px 0;
+}
+
+.releases .btn-large {
+  background-color: white;
+  padding: 10px 15px;
+}
+
+.releases .btn-large a {
+  color: black;
+  font-size: 12px;
+  text-transform: none;
+}
+
+.releases-carousel {
+  width: 80%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.releases-carousel img {
+  margin: 0 10px;
+}
+
+/* GALLERY */
+
+.gallery {
+  width: 80%;
+}
+
+.gallery > .item {
+  margin: 0 10px;
+  width: 20%;
+}
+
+/* STAR WARS */
+
+.star-wars {
+  background-color: white;
+}
+
+.star-wars--image {
+  background-color: black;
+}
+
+.star-wars--image img {
+  width: 100%;
+}
+
+.star-wars--blurb-outer {
+  position: relative;
+}
+
+.star-wars--blurb {
+  width: 70%;
+  margin: 0 auto;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.star-wars--blurb .btn-large {
+  background-color: black;
+  margin-left: 0;
+}
+
+.star-wars--blurb .btn-large a{
+  color: white;
+  font-size: 18px;
+  text-transform: none;
+}
+
+/* GALLERY */
+
+.static-gallery {
+  background-color: white;
+  margin: 0 auto;
+  padding: 50px 35px;
+}
+
+.static-gallery img {
+  padding: 10px;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-form .btn-large {
+  background-color: black;
+  margin: 30px auto;
+}
+
+.contact-form .btn-large a {
+  color: white;
+  font-size: 18px;
+  text-transform: none;
+}
+
+/* footer */
+
+.footer {
+  background-color: black;
+}
+
+.footer .cell {
+  margin: 40px auto;
+}
+
+.footer h3 {
+  font-size: 20px;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer li {
+  font-size: 12px;
+}
+
+.footer .icons {
+  margin-top: 10px;
+}
+
+.footer .icons a {
+  margin: 0 5px;
+}
